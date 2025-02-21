@@ -1,0 +1,7 @@
+# Virtual Environment(env) => env same as system interpreter but is isolated form the other py env on the system
+# Installation => pip install virtualenv
+# Create new env => virtualenv env        # env is the environment's name, it can be 'myprojectenv'
+# To get names of all the packages installed in a given py env along with versions => pip freeze
+# To create a file named 'requirements.txt' in same directory having o/p of 'pip freeze' => pip freeze > requirements.txt
+# To activate a virtual environment => .\environmentnameenv\Scripts\Activate.ps1
+# To distribute this file to others so that they can recreate the same env using => pip install -r requirements.txt 
